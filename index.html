@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html ng-app="netSales">
+<head>
+<link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="vendors/bootstrap/css/bootstrap-theme.min.css"> 
+    <link rel="stylesheet" href="resources/css/layout.css">
+    <script src="vendors/jquery.min.js">
+    </script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendors/angular.min.js"></script>
+    <script src="resources/js/app.js"></script>
+    <script src="resources/js/directives.js"></script>
+    <script src="resources/js/d3service.js"></script>
+</head>
+<body ng-controller="NetSalesController">
+<header></header>
+<div class="container" align="center">
+<div width = 10 style="overflow-x:auto">
+<country data="country" ng-click="select($index)" ng-repeat="country in countries track by $index" index="$index" selected="selected"></country>
+</div>
+<hr />
+<div class="row">
+<div class="col-md-6 vertical-bar">
+<div>Net Sales for {{countries[selected].name}} 2014</div>
+<net-sales></net-sales></div>
+<div class="col-md-6"><best-sellers></best-sellers></div>
+</div>
+</div>
+</body>
+</html>

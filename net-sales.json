@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Country 1",
+        "country_data": {
+            "net_sales": "84M",
+            "yearly_distribution": [
+                {
+                    "quarter": "Q1",
+                    "sales": "20M"
+                },
+                {
+                    "quarter": "Q2",
+                    "sales": "30M"
+                },
+                {
+                    "quarter": "Q3",
+                    "sales": "18M"
+                },
+                {
+                    "quarter": "Q4",
+                    "sales": "16M"
+                }
+            ],
+            "best_sellers": [
+                {
+                    "name": "Product A",
+                    "units": "76000",
+                    "total": "5M"
+                },
+                {
+                    "name": "Product B",
+                    "units": "13000",
+                    "total": "2M"
+                },
+                {
+                    "name": "Product C",
+                    "units": "12300",
+                    "total": "15M"
+                },
+                {
+                    "name": "Product D",
+                    "units": "9800",
+                    "total": "3M"
+                },
+                {
+                    "name": "Product F",
+                    "units": "7100",
+                    "total": "3M"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Country 2",
+        "country_data": {
+            "net_sales": "7M",
+            "yearly_distribution": [
+                {
+                    "quarter": "Q1",
+                    "sales": "10M"
+                },
+                {
+                    "quarter": "Q2",
+                    "sales": "20M"
+                },
+                {
+                    "quarter": "Q3",
+                    "sales": "38M"
+                },
+                {
+                    "quarter": "Q4",
+                    "sales": "26M"
+                }
+            ],
+            "best_sellers": [
+                {
+                    "name": "Product A",
+                    "units": "76000",
+                    "total": "5M"
+                },
+                {
+                    "name": "Product B",
+                    "units": "76000",
+                    "total": "5M"
+                },
+                {
+                    "name": "Product C",
+                    "units": "76000",
+                    "total": "5M"
+                },
+                {
+                    "name": "Product D",
+                    "units": "76000",
+                    "total": "5M"
+                },
+                {
+                    "name": "Product F",
+                    "units": "76000",
+                    "total": "5M"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Country 3",
+        "country_data": {
+            "net_sales": "84M",
+            "yearly_distribution": [
+                {
+                    "quarter": "Q1",
+                    "sales": "10M"
+                },
+                {
+                    "quarter": "Q2",
+                    "sales": "40M"
+                },
+                {
+                    "quarter": "Q3",
+                    "sales": "28M"
+                },
+                {
+                    "quarter": "Q4",
+                    "sales": "46M"
+                }
+            ],
+            "best_sellers": [
+                {
+                    "name": "Product A",
+                    "units": "76000",
+                    "total": "5M"
+                },
+                {
+                    "name": "Product B",
+                    "units": "76000",
+                    "total": "5M"
+                },
+                {
+                    "name": "Product C",
+                    "units": "76000",
+                    "total": "5M"
+                },
+                {
+                    "name": "Product D",
+                    "units": "76000",
+                    "total": "5M"
+                },
+                {
+                    "name": "Product F",
+                    "units": "76000",
+                    "total": "5M"
+                }
+            ]
+        }
+    }
+]
